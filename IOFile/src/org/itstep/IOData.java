@@ -63,7 +63,9 @@ public class IOData {
 			e.printStackTrace();
 		} finally {
 				try {
+					if(reader != null) {
 					reader.close();
+					}
 				} catch (IOException e) {
 					e.printStackTrace();
 				}
