@@ -1,6 +1,6 @@
 package org.itstep;
 
-public class AppRunner {
+public class AppRunner extends Object {
 
 	public static void main(String[] args) {
 		String fromPath = "E:\\test\\foto.jpg";
